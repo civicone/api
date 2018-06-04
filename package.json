@@ -1,0 +1,16 @@
+{
+  "name": "civic-api",
+  "version": "0.0.1",
+  "description": "Civic REST API",
+  "main": "index.js",
+ "license": "MIT",
+ "scripts": {
+  "start": "DEBUG=* node index.js"
+ },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "morgan-debug": "^2.0.0"
+  }
+}
